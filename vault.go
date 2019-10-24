@@ -1,4 +1,4 @@
-package secret
+package vaulty
 
 import (
 	"encoding/json"
@@ -11,7 +11,6 @@ import (
 )
 
 func File(encodingKey, filepath string) *Vault {
-
 	return &Vault{
 		encodingKey: encodingKey,
 		filepath:    filepath,
